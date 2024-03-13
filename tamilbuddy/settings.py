@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-_e+e!=t5pgnx^&vwfl3_)!%4eb_^ufn%6m5s&ywzcp6%i9sz=t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
+
 
 
 # Application definition
@@ -39,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'base.apps.BaseConfig',
+
+    'rest_framework',
 ]
 
 AUTH_USER_MODEL = 'base.User'
