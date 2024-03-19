@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tamilbuddy.wsgi.application'
+WSGI_APPLICATION = 'tamilbuddy.wsgi.app'
 
 
 # Database
