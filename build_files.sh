@@ -1,2 +1,2 @@
 pip install -r requirements.txt
-python3.9 manage.py
+python3.12 manage.py
