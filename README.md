@@ -20,10 +20,6 @@ Technologies Used
 
 Installation and Setup
 
-Clone the Repository:
-
-git clone https://github.com/yourusername/qa-django-app.git
-
 cd qa-django-app
 Install Dependencies:
 
